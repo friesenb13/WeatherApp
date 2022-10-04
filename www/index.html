@@ -42,27 +42,37 @@
         <title>Weather App</title>
     </head>
     <body>
-       <header><h1><span class="material-icons">location_on</span>Lethbridge</h1></header>
+       <header>
+        <h1>Weather In My City</h1>
+    </header>
+    
        <main>
-           <h2 class="temp">
-            <span id="temp">11&deg;C</span>
+        <h2><span class="material-icons">location_on</span>Lethbridge</h2>
+           <h2 class="temp-main">
+            <span id="temp"></span>&deg;C
            </h2>
             <div><h2 id="description"></h2></div>
 
 <div class="flex-container">
-            <div><h4>Min</h4><i class="wi wi-thermometer-exterior"></i>
-            <span id="mintemp" class="temp"></span></div>
+            <div><h4><i class="wi wi-thermometer-exterior"></i>Min</h4>
+            <span id="mintemp" class="temp"></span>&deg;C</div>
 
-            <div><h4>Max</h4><i class="wi wi-thermometer"></i>
-            <span id="maxtemp" class="temp"></span></div>
+            <div><h4><i class="wi wi-thermometer"></i>Max</h4>
+            <span id="maxtemp" class="temp"></span>&deg;C</div>
 
-            <div><h4>Wind</h4><i class="wi wi-strong-wind"></i>
-            <span id="wind" class="temp"></span></div>
+            <div><h4><i class="wi wi-strong-wind"></i>Wind</h4>
+            <span id="wind" class="temp"></span>km/h</div>
 
-            <div><h4>Humidity</h4><i class="wi wi-humidity"></i>
-            <span id="humidity" class="temp"></span></div>
+            <div><h4><i class="wi wi-humidity"></i>Humidity</h4>
+            <span id="humidity" class="temp"></span>&#37;</div>
         </div>
        </main>
+
+       <footer>
+        <p>Photo by <a href="https://unsplash.com/@venrick?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Venrick Azcueta</a> on <a href="https://unsplash.com/s/photos/fall-weather?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </p>
+
+       </footer>
         <script src="cordova.js"></script>
         <script type="text/javascript" src="js/weatherapp.js"></script>
         <!-- <script src="js/index.js"></script> -->

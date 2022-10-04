@@ -1,21 +1,32 @@
 body{
-    /* background: rgb(152, 220, 241); */
-    background: rgb(34,193,195);
-background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+ 
+    /* background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); */
+    background-image:url("img/fall3.jpg");
     min-height:100vh;
+    font-family:Helvetica, sans-serif;
+    display:flex;
+    flex-direction: column;
+    border-top:0px;
+
 }
 
+
 .temp{
-    font-size: 15px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    
+}
+
+.temp-main{
+    font-size: 50px;
 }
 
 h4{
     font-size:20px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(255,255,255,.3);
 
 }
-h1{
+h{
     font-size:30px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -23,7 +34,10 @@ h1{
 header{
     background-color:rgba(255,255,255,.5);
     max-width: 80%;
-    margin:auto;
+    margin-top: 100px;
+    padding: 20px;
+    margin-left:auto;
+    margin-right:auto;
     text-align: center;
 }
 
@@ -39,4 +53,13 @@ main{
 .flex-container>div{
     min-width:40vw;
     
+}
+
+footer{
+    background-color:rgba(255,255,255,.5);
+    font-size: 8px;;
+    margin-right: 0px;
+}
+a{
+    color: #80540f;
 }
