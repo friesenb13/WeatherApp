@@ -17,7 +17,7 @@ body{
 }
 
 .temp-main{
-    font-size: 50px;
+    font-size: 80px;
 }
 
 h4{
@@ -56,9 +56,10 @@ main{
 }
 
 footer{
-    background-color:rgba(255,255,255,.5);
+    background-color:rgba(255,255,255,.2);
     font-size: 8px;;
-    margin-right: 0px;
+    color:black;
+    
 }
 a{
     color: #80540f;
